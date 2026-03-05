@@ -9,7 +9,7 @@
     "lint": "oxlint --fix --tsconfig ./tsconfig.json --type-aware src/**/*.js,src/**/*.ts",
     "build": "vite build --mode main && node scripts/copy-runtime-deps.mjs && node scripts/rebuild-leveldown.mjs && vite build --mode preload && vite build --mode renderer"
   },
-  "author": "風間青祢",
+  "author": "accmo",
   "license": "MIT",
   "dependencies": {
     "level": "^7.0.1"
